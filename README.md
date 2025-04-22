@@ -2,7 +2,7 @@
 
 This notebook analyzes email marketing campaign data to model user engagement (e.g., click-through behavior) using various machine learning techniques. It covers data exploration, preprocessing, model building, evaluation, and interpretation, aiming to improve marketing strategies based on data-driven insights.
 
-🧰 Tech Stack
+Tech Stack
 Language: Python
 
 Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, imblearn
@@ -22,25 +22,7 @@ Model evaluation: Accuracy, F1-score, ROC-AUC, Confusion Matrix
 
 Feature importance analysis
 
-🚀 How to Run
-Clone the repository or download the notebook.
-
-Install required libraries:
-
-bash
-Copy
-Edit
-pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn xgboost
-Open the notebook in JupyterLab or VSCode.
-
-Execute the cells sequentially.
-
-📊 Results Summary
-XGBoost model achieved the best performance in predicting user click behavior.
-
-Feature importance highlighted key drivers of engagement like TotalLinks, EmailType, and SubjectLength.
-
-🔁 Step-by-Step Approach
+Step-by-Step Approach
 1. Data Loading
 Load campaign performance dataset using pandas.
 
